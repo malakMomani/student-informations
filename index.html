@@ -4,18 +4,70 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
   <header>
-
+    <h1>ASAC</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
 
-  </main>
+    <section id="form-section">
+      <form id=student-form>
+        <label for="std-email">Student Email</label>
+        <input type="email" name="std-email" id="stdemail">
 
+        <br />
+        <label for="std-no"> Student Mobile Number</label>
+        <input type="number" name="std-no" id="stdno">
+  
+        <br />
+        <label for="tuition">Tuition</label>
+        <select name="tuition" id="tuition">
+          <option id="100">100 JD</option>
+          <option id="500">500 JD</option>
+          <option id="1000">1000 JD</option>
+        </select>
+
+        <br />
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <section id="table-section">
+      <table id="result-table">
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Age</th>
+            <th>Tuition</th>
+          </tr>
+        </thead>
+      </table>
+
+      <h2 id ="total">Total : 0</h2>
+    </section>
+
+
+
+  </main>
+<!-- 
   <footer>
-    
-  </footer>
+    &copy; All right reserved ASAC 2021
+  </footer> -->
+
+  <script src="js/app.js"></script>
 </body>
 </html>

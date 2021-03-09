@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  background-image: url(https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Falqudscollege-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!2spDmTvk_Ey3l_QSLPv1vkLnsRzUCaRDqWTh1FX8GP5tUMRzFWzmQ47zimRsNl9q%2Fitems%2F015YABFJX6OTTMEM5MWVCZFHPXYJGKR637%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYWxxdWRzY29sbGVnZS1teS5zaGFyZXBvaW50LmNvbUBhMTYyYzUzMi03YTBjLTQ2NDUtOTZmZC0yMGQwMTljZjRlNWEiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjE1MjY5NjAwIiwiZXhwIjoiMTYxNTI5MTIwMCIsImVuZHBvaW50dXJsIjoiVzlMTWdBNGxHaTJ6MjJ2M3VoNEcxNVJDMmlpLzZrMllKd1ZyWVJwSklSUT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9UazBNMk5oWkdFdFpUUXpZaTAwWTJaakxXSTNPVGN0WmpReE1qSmpabUptTldKbCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHx1cm4lM2FzcG8lM2Fhbm9uIzZjZDMxNmY2Y2E0YWQ3YmNiZWVkMmJlYjE2NjZlZmE0MjAzM2MyZmQ5MDQwZDM5M2JiNDY5MjIxZmUwZTkzZjgiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHx1cm4lM2FzcG8lM2Fhbm9uIzZjZDMxNmY2Y2E0YWQ3YmNiZWVkMmJlYjE2NjZlZmE0MjAzM2MyZmQ5MDQwZDM5M2JiNDY5MjIxZmUwZTkzZjgiLCJzaGFyaW5naWQiOiJBcWEyQ1p3aU9FNmhzQjFUMjBtS3l3IiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjIifQ.SEhTVUJGZzZaTlBURjFmQXZsNlViQVhwQ0hmZ3JWckh2cWlVQ1JpWkhIaz0&encodeFailures=1&srcWidth=&srcHeight=&width=563&height=375&action=Access);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 50px;
+  border-bottom: 1px white solid;
+  background-color: rgba(96, 96, 96,0.6);
+}
+
+header h1  {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: x-large;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+header nav  {
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 5vh;
+}
+
+header nav ul li a {
+  float: right;
+  margin-right: 50px;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+main section {
+  margin-top: 5vh;
+}
+
+input {
+  border: 1px solid #a4a4a4;
+  border-radius: 4px;
+  width: 50%; 
+  margin-bottom: 30px;
+  background: #f8f8ff;
+}
+
+#form-section {
+  width: 50%;
+  background-color: rgba(96, 96, 96,0.6);
+  float: left;
+}
+#student-form {
+  width: 40%;
+ 
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+
+}
+
+#table-section {
+  width: 45%;
+  background-color: rgba(96, 96, 96,0.6);
+  float: right;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+#table-section h2  {
+  text-align: center;
+  color: #eee;
+  margin-bottom: 20px;
+}
+footer {
+}
+#result-table {
+  margin: 0 auto;
+  width : 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#result-table thead , #result-table tbody {
+  border: 1px #eee solid;
+  border-collapse: collapse;
+}
+
+#result-table thead tr th , #result-table tbody tr td {
+  text-align: center;
+  color: #eee;
+  width: 100px;
+  height: 30px;
+  border: 1px #eee solid;
+  border-collapse: collapse;
+  padding-top: 8px;
+
+}
+
+label {
+  display: inline-block;
+  color: #eee;
+  width: 200px;
+}
+
