@@ -58,10 +58,8 @@ input {
   float: left;
 }
 #student-form {
-  width: 40%;
- 
-  margin-right: 10px;
-  margin-left: 10px;
+  width: 90%;
+  margin: 20px;
   border-radius: 10px;
 
 }
@@ -79,6 +77,16 @@ input {
   margin-bottom: 20px;
 }
 footer {
+  
+  clear: both;
+  position: absolute;
+  color: #eee;
+  bottom: 5vh;
+  left: 40vw;
+}
+
+#submit {
+  margin-top: 20px;
 }
 #result-table {
   margin: 0 auto;
@@ -105,6 +113,6 @@ footer {
 label {
   display: inline-block;
   color: #eee;
-  width: 200px;
+  width:200px;
 }
 
